@@ -1,0 +1,21 @@
+@import "../../Partials/_global.scss";
+
+.bubble-right{
+    display: flex;
+    align-items: center;
+}
+
+.chat-bubble{
+    min-width: 50%;
+    max-width: 75%;
+    min-height: 5vh;
+    max-height: fit-content;
+    background-color: rgba($color: rgb(184, 184, 184), $alpha: 1.0);
+    border-radius: 5%;
+    margin-bottom: 15px;
+    margin-left: auto;
+    &__text{
+        padding: 5%;
+        color: black;
+    }
+}

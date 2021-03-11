@@ -1,0 +1,31 @@
+@import "../../Partials/_global.scss";
+
+.chat-box{
+    background-color: rgba($color: gray, $alpha: 0.5);
+    width: 100%;
+    height: 80vh;
+    border-radius: 10px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    overflow: scroll;
+}
+.pfp{
+    &-left {
+        margin-right: 5px;
+        background-image: url("../../assets/images/riku-lu-f50UNtxoeiI-unsplash.jpg");
+        background-position: center;
+        background-size: cover;
+
+    }
+    &-right {
+        margin-left: 5px;
+        background-color: lightgrey;
+        background-image: url("../../assets/images/user-icon.svg");
+    }
+    margin-bottom: 15px;
+    min-width: 40px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}

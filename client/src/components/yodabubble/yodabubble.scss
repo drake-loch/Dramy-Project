@@ -1,0 +1,22 @@
+@import "../../Partials/_global.scss";
+
+.bubble-left{
+    display: flex;
+    align-items: center;
+}
+
+.yoda-bubble{
+    display: flex;
+    align-items: center;
+    min-width: 50%;
+    max-width: 75%;
+    min-height: 5vh;
+    max-height: fit-content;
+    background-color: rgba($color: $yodaGreen, $alpha: 1.0);
+    border-radius: 5%;
+    margin-bottom: 15px;
+    &__text{
+        padding: 5%;
+        color: black;
+    }
+}
